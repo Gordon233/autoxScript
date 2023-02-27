@@ -1,0 +1,19 @@
+{
+  "name": "autoxscript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gordon233/autoxScript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gordon233/autoxScript/issues"
+  },
+  "homepage": "https://github.com/Gordon233/autoxScript#readme"
+}
