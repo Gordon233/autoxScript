@@ -11,8 +11,9 @@ if (!requestScreenCapture()) {
 function homeReadBulidingPanel_BigName() {
     img1=captureScreen();
     img2 =images.clip(img1, 426, 474, 455, 50);
-    img3=images.inRange(img2, "#FFFFB7","#FFFFB7")
-    let BulidingName = gmlkit.ocr(img3, "en").text.replace(/\s+/g, '').toLowerCase().replace(/[(0-9)]/g, '');
+    //img3=img2
+    img3=images.inRange(img2, "#FFFFB8","#FFFFB8")
+    let BulidingName = gmlkit.ocr(img3, "zh").text.replace(/\s+/g, '').toLowerCase().replace(/[(0-9)]/g, '');
     images.save(img3, "/mnt/shared/Pictures/coc/1.jpg", "jpg", 100);
     console.log(BulidingName)
     return BulidingName;
